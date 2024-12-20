@@ -1,10 +1,10 @@
 import os
 
 def display_env_variables():
-    # Fetch all environment variables
+    
     env_vars = os.environ
 
-    # Print each environment variable and its value
+    # Print
     for key, value in env_vars.items():
         print(f"{key}: {value}")
 
